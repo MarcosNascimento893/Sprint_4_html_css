@@ -1,9 +1,4 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
 main {
-
 text-align: center;
 }
 header.centralizando{
@@ -19,7 +14,6 @@ footer{
     bottom: 0%;
     width: 100%;
 }
-
 footer div {
     display: flex;
     align-items: center;
@@ -27,7 +21,6 @@ footer div {
 }
 body{
     min-height: 100vh;
-
 }
 header{
     display: flex;
@@ -36,7 +29,6 @@ header{
 
 header div {
     width: 10%;
-
 }
 header nav{
     width: 80%;
@@ -49,16 +41,17 @@ nav a{
     color: blue;
     text-decoration:none;
 }
-.sei_La{
+.ajustando_espaco{
     display: flex;
-    
+    align-items: center;
+
 }
 section{
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    }
-input{
+    justify-content:space-around;
+}
+.caixa{
     display: flex;
     width: 50px;
 }
@@ -66,6 +59,43 @@ button{
     margin-top: 2%;
     background-color: blue;
     padding: 1% 5%;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
+}
+.centralizando_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+input{
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+}
+select{
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+}
+.alinhamento_do_form{
+    display: flex;
+    justify-content: center;
+}
+.botao_enviar{
+    padding: 1% 25%;
+    border-radius: 10px;
+    height: 45px;
+
+}
+.ajajja{
+    display: flex;
+    justify-content: end;
+
 }
