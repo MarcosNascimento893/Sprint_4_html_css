@@ -20,13 +20,13 @@ footer div {
     color: white;
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
 }
 header{
     display: flex;
     width: 100%;
 }
-
 header div {
     width: 10%;
 }
@@ -44,7 +44,6 @@ nav a{
 .ajustando_espaco{
     display: flex;
     align-items: center;
-
 }
 section{
     display: flex;
@@ -56,7 +55,7 @@ section{
     width: 50px;
 }
 button{
-    margin-top: 2%;
+    margin-top: 1%;
     background-color: blue;
     padding: 1% 5%;
     border-radius: 20px;
@@ -98,4 +97,12 @@ select{
     display: flex;
     justify-content: end;
 
+}
+.ajustando_sobre_voce{
+    display: flex;
+    justify-content:baseline
+}
+
+.ajustando_sobre_voce p{
+     margin: 0%;
 }
