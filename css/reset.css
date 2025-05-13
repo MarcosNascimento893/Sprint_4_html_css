@@ -1,3 +1,4 @@
+
 main {
 text-align: center;
 }
@@ -106,11 +107,19 @@ select{
 .ajustando_sobre_voce p{
      margin: 0%;
 }
-@media and (max-width: 450px){
-    .logo_responsividade{
-        display: flex;
-        justify-content: center;
-        height: 1px;
+.imagem_principal{
+    width: 80%;
+}
 
+@media (max-width: 450px){
+    .logo_responsividade img{
+        height: 50%;
     }
+    header{
+        flex-direction: column;
+    }
+    .centralizando{
+        
+    }
+
 }
