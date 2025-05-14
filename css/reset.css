@@ -1,10 +1,5 @@
-
 main {
 text-align: center;
-}
-header.centralizando{
-    text-align: center;
-    background-color: white;
 }
 footer{
     background-color: #1b357e;
@@ -72,7 +67,6 @@ form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-weight: bold;
 }
 input{
     width: 300px;
@@ -106,6 +100,7 @@ select{
 
 .ajustando_sobre_voce p{
      margin: 0%;
+     font-weight: bold;
 }
 .imagem_principal{
     width: 80%;
@@ -113,12 +108,16 @@ select{
 
 @media (max-width: 450px){
     .logo_responsividade img{
-        height: 50%;
+        height: 90%;
+        margin-top: 100px;
     }
-    header{
-        flex-direction: column;
+    .logo_responsividade{
+        width: 100px;
     }
-    .centralizando{
+    .imagem_principal{
+        margin-top: 150px;
+    }
+    .logo_responsividade{
         
     }
 
